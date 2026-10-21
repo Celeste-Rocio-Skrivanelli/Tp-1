@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<hyml lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wdth=device-width, initial-scale=1.0">
+    <title>Ubicación</title>
+    <link rel="stylesheet" href="geostyle.css">
+
+</head>
+<body>
+    <div class="card">
+        <h2>Ubicación</h2>
+        <form id="locationForm">
+            <div class="input-group">
+                <label for="nombre">Nombre Ubicación</label>
+                <input type="text" id="nombre" placeholder="Nombre Ubicación" required>  
+            </div>
+
+            <div class="input-group">
+                <label for="longitud">Longitud</label>
+                <input type="text" id="longitud" value="-81,5618197" required>
+            </div>
+
+            <button type="submit" id="btnAbrir">Abrir Ubicación</button>
+        </form>
+    </div>
+    <script src="geoscrit.js"></script>
+</body>
+</hyml>
